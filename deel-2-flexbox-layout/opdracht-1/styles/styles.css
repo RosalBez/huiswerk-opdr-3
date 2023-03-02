@@ -1,1 +1,44 @@
 /*Schrijf hier jouw CSS*/
+
+/*Schrijf hier jouw CSS* */
+
+/* ----- opdracht 2 ----- */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.article {
+    flex-basis: 50%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    order: 1;
+}
+
+
+
+.nav {
+    flex-basis: 25%;
+    order: 3;
+}
+
+
+.aside  {
+    flex-basis: 25%;
+    order: 2;
+}
+
+
+
