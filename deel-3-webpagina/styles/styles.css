@@ -1,1 +1,100 @@
 /*Schrijf hier jouw css*/
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: Poppins, Arial, sans-serif;
+    background-color: #F2F3D9;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #030027;
+    color: #F2F3D9;
+    align-items: center;
+    padding: 40px;
+}
+
+a {
+    display: flex;
+}
+
+.analytica {
+    text-transform: uppercase;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 125vw;
+
+}
+
+.navbalk {
+    flex-basis: 15vw;
+}
+
+.titels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+}
+
+.artikel1 {
+    border-radius: 2%;
+    background-color: #C16E70;
+    min-height: 350px;
+    min-width: 240px;
+    font-size: 18px;
+    text-align: center;
+    justify-content: flex-end;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 40px
+
+}
+
+.artikel2 {
+    border-radius: 2%;
+    background-color: #C16E70;
+    min-height: 350px;
+    min-width: 240px;
+    text-align: center;
+    font-size: 18px;
+    justify-content: flex-end;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 40px;
+}
+
+.artikel3 {
+    border-radius: 2%;
+    background-color: #C16E70;
+    min-height: 350px;
+    min-width: 240px;
+    text-align: center;
+    font-size: 18px;
+    justify-content: flex-end;
+    flex-grow:  0;
+    flex-shrink: 0;
+    padding: 40px;
+}
